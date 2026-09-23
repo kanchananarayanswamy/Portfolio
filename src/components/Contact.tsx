@@ -294,6 +294,7 @@ export const Contact: React.FC = () => {
                   </label>
                   <input
                     type="text"
+                    name="name"
                     value={formData.name}
                     onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                     placeholder="e.g. Alex Morgan"
@@ -316,6 +317,7 @@ export const Contact: React.FC = () => {
                   </label>
                   <input
                     type="email"
+                    name="name"
                     value={formData.email}
                     onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                     placeholder="alex@example.com"
@@ -338,6 +340,7 @@ export const Contact: React.FC = () => {
                   </label>
                   <input
                     type="text"
+                    name="name"
                     value={formData.subject}
                     onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
                     placeholder="e.g. Data Scientist Role / Mentorship Opportunity"
